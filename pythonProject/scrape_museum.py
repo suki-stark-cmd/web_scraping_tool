@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from fpdf import FPDF
 import re
 import urllib3
+import time
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Base URL of the website
